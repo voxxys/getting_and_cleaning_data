@@ -3,7 +3,7 @@ title: "README"
 output: html_document
 ---
 
-This is the README file for the Course Project of the Getting and Cleaning Data course. The initial dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip was reshaped and summarized to meet the principles of the tidy data (http://vita.had.co.nz/papers/tidy-data.pdf). The final form of the dataset is narrow with four variables described in Codebook.md. The code for data analysis described below is available in the run_analysis.R file.
+This is the README file for the Course Project of the Getting and Cleaning Data course. The initial dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip was reshaped and summarized to meet the principles of the tidy data (http://vita.had.co.nz/papers/tidy-data.pdf). The final form of the dataset is narrow with four variables described in Codebook.Rmd. The code for data analysis described below is available in the run_analysis.R file.
 
 Code walkthrough
 ---
