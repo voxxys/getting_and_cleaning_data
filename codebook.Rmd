@@ -1,0 +1,25 @@
+---
+title: "Codebook"
+output: html_document
+---
+
+
+
+Variables
+---------
+
+**feature_name** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name of the feature being measured (corresponds to feature name descriptions in *features.txt* and *features.info*).
+
+**activity_name** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Type of activity performed.
+
+**subject** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Identification number of the subject who performed the activity.
+
+**Average value** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Average value of the feature for certain activity and subject.
+
+Dataset structure
+---
+```{r}
+tidy <- read.table("tidy.txt")
+str(tidy)
+```
+
